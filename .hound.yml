@@ -3,6 +3,7 @@ eslint:
   config_file: .eslintrc.js
 
 jshint:
+  enabled: true
   config_file: .jshintrc
 
 sass-lint:
