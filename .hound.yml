@@ -2,5 +2,8 @@ eslint:
   enabled: true
   config_file: .eslintrc.js
 
+jshint:
+  config_file: .jshintrc
+
 sass-lint:
   enabled: true
