@@ -3,8 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "start": "cd now && npm i && node server.js",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "now-build": "npm run build",
     "lint": "vue-cli-service lint",
     "test:e2e": "vue-cli-service test:e2e",
     "test:unit": "vue-cli-service test:unit"
