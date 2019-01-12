@@ -1,8 +1,0 @@
-eslint:
-  enabled: false
-
-jshint:
-  enabled: false
-
-sass-lint:
-  enabled: true
