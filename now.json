@@ -1,9 +1,7 @@
 {
   "version": 2,
   "builds": [
-    { "src": "package.json", "use": "@now/static-build", "config": { "useBuildUtils": "@now/build-utils@canary", "maxLambdaSize": "50mb" } }
+    { "src": "package.json", "use": "@now/static-build" }
   ],
-  "env": {
-    "NODE_ENV": "production"
-  }
+  "regions": ["bru1"]
 }
