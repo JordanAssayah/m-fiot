@@ -1,7 +1,7 @@
 {
-  "version": 2,
-  "builds": [
-    { "src": "package.json", "use": "@now/static-build" }
-  ],
-  "regions": ["bru1"]
+  "version": 1,
+  "type": "static",
+  "static": {
+    "public": "dist"
+  }
 }
