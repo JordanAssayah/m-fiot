@@ -38,7 +38,7 @@ Use one of the following closing keyword in your commit
 
 Example of last commit message for the first feature
 
-    feature(#1): Add doc close
+    close feature(#1): Add doc
 
 ## Pull request
 [Open a pull request](https://github.com/liip/zebra/compare) so another developer can review your changes.
