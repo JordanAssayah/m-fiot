@@ -1,3 +1,3 @@
-FROM JordanAssayah/m-fiot
+FROM jordanassayah/m-fiot
 
 RUN pwd
