@@ -22,15 +22,13 @@ $ npm run serve
 
 ## Project Commands
 ```json
-{
-  "postinstall": "if test \"$NODE_ENV\" = \"production\" ; then npm run build ; fi ",
-  "start": "node server.js",
-  "serve": "vue-cli-service serve",
-  "build": "vue-cli-service build",
-  "lint": "vue-cli-service lint",
-  "test:e2e": "vue-cli-service test:e2e",
-  "test:unit": "vue-cli-service test:unit"
-}
+"postinstall": "if test \"$NODE_ENV\" = \"production\" ; then npm run build ; fi ",
+"start": "node server.js",
+"serve": "vue-cli-service serve",
+"build": "vue-cli-service build",
+"lint": "vue-cli-service lint",
+"test:e2e": "vue-cli-service test:e2e",
+"test:unit": "vue-cli-service test:unit"
 ```
 ## Particle.io
 Helpfull links:
