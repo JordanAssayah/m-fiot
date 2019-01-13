@@ -23,13 +23,13 @@ $ npm run serve
 ## Project Commands
 ```json
 {
-  "postinstall": "if test \"$NODE_ENV\" = \"production\" ; then npm run build ; fi ", // Executed on Heroku
-  "start": "node server.js",                // for deployment server
-  "serve": "vue-cli-service serve",         // Starts the dev server
-  "build": "vue-cli-service build",         // Build the project for production
-  "lint": "vue-cli-service lint",           // Lint files
-  "test:e2e": "vue-cli-service test:e2e",   // Test with Cypress
-  "test:unit": "vue-cli-service test:unit"  // Test with Jest
+  "postinstall": "if test \"$NODE_ENV\" = \"production\" ; then npm run build ; fi ",
+  "start": "node server.js",
+  "serve": "vue-cli-service serve",
+  "build": "vue-cli-service build",
+  "lint": "vue-cli-service lint",
+  "test:e2e": "vue-cli-service test:e2e",
+  "test:unit": "vue-cli-service test:unit"
 }
 ```
 ## Particle.io
