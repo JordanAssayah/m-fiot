@@ -1,0 +1,13 @@
+.main-menu {
+  color: #9DCEFE;
+  background-color: #181F41;
+
+  @include media('xs') {
+    width: 100%;
+  }
+
+  @include media('sm') {
+    width: 45px;
+    height: 100vh;
+  }
+}

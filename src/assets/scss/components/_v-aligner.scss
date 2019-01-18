@@ -1,0 +1,12 @@
+.v-aligner {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+  justify-content: space-between;
+
+
+  &-item {
+    display: flex;
+    justify-content: center;
+  }
+}

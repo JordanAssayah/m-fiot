@@ -5,6 +5,8 @@ import store from './store'
 import './registerServiceWorker'
 
 import './assets/scss/main.scss'
+import './assets/svg/icons.svg'
+import './assets/svg/style.css'
 
 Vue.config.productionTip = false
 
